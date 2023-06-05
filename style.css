@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'digital-7';
+  src: url('../fonts/digital-7.ttf');
+}
+
+body {
+  background-color: #5bccf6;
+  text-align: center;
+  font-family: 'digital-7', sans-serif;
+}
+#title {
+  color: #030e12;
+}
+
+#clock {
+  
+  color: #030e12;
+}
+.pause,.resume {
+  background-color: #fcde67;
+  font-family: 'digital-7', sans-serif;
+  border-radius: 10px;
+  border-style: none;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 20px;
+    display: inline-block;
+    padding: 10px 16px;
+}
+
+.pause:hover, .resume:hover {
+  background-color: #edd576;
+ 
+}
